@@ -3,17 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.15",
+    "@types/react-dom": "^17.0.8",
+    "@types/styled-components": "^5.1.10",
+    "axios": "^0.21.1",
+    "haversine": "^1.1.1",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
+    "react-yandex-maps": "^4.6.0",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.3.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -39,5 +47,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/haversine": "^1.1.4",
+    "@types/lodash": "^4.14.170",
+    "@types/react": "^17.0.11",
+    "@types/react-redux": "^7.1.16",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1"
   }
 }
